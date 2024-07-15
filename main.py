@@ -12,7 +12,7 @@ from routers.notification import notification
 from routers.auth import auth
 from pathlib import Path
 import requests,io
-# from config import USER_AGENT
+# from config import avatarlinux31@gmail.com
 
 
 app = FastAPI(
