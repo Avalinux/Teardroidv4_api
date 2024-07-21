@@ -12,7 +12,7 @@ from routers.notification import notification
 from routers.auth import auth
 from pathlib import Path
 import requests,io
-# from config import avatarlinux31@gmail.com
+# from config import avatar-linux
 
 
 app = FastAPI(
@@ -39,7 +39,7 @@ REDIRCT_URL = "https://en.wikipedia.org/wiki/Special:Random?action=render"
 
 
 class Settings(BaseModel):
-    authjwt_secret_key: str = "jaihind"
+    authjwt_secret_key: str = "py"
 
 
 @AuthJWT.load_config
